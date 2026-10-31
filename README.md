@@ -6,7 +6,7 @@ A small interactive banking program in Python. It works with a checking account 
 
 ## Requirements
 
-Python 3. The program uses only the standard library (`sys`), so there is nothing to install.
+Python 3. The program uses only the standard library (`math` and `sys`), so there is nothing to install.
 
 ## How to run
 

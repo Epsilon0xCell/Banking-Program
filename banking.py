@@ -128,6 +128,16 @@ def main():
         return 1
     new_checking, new_saving = result
 
+    # read_amount checks each input is finite, but two finite
+    # numbers can still add past the float range: a deposit of
+    # 1e308 onto a balance of 1e308 sums to inf, and the first
+    # version of this fix printed that as the new balance. The
+    # computed balances get the same finite rule as the inputs,
+    # refused with the same line, before any result is printed.
+    if not (math.isfinite(new_checking) and math.isfinite(new_saving)):
+        print("Please enter a number.")
+        return 1
+
     if withdraw_takeout in ("w", "withdraw"):
         print("\n You have a selected a withdraw \n")
         print("Doing a withdraw of: ", format_money(money))

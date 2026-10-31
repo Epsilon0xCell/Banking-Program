@@ -57,6 +57,12 @@ class ScriptTests(unittest.TestCase):
         self.assertEqual(out.returncode, 1)
         self.assertIn("Please choose w, d, or t", out.stdout)
 
+    def test_deposit_overflow_exits_1(self):
+        out = self.run_script("1e308\n0\nd\nc\n1e308\n")
+        self.assertEqual(out.returncode, 1)
+        self.assertIn("Please enter a number.", out.stdout)
+        self.assertNotIn("\ninf\n", out.stdout)
+
     def test_insufficient_funds_exits_1(self):
         out = self.run_script("100\n50\nw\nc\n999\n")
         self.assertEqual(out.returncode, 1)
