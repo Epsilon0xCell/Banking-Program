@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 34" role="img" aria-label="Horizon with breaking foam separator">
+  <path id="horizon-line" d="M0 20 q60 -7 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#7fc4c9" stroke-width="2.6"/>
+  <g id="foam-crests" fill="#f0f6f2">
+    <circle cx="90" cy="13" r="3.6"/><circle cx="104" cy="11" r="2.6"/><circle cx="270" cy="12" r="3.6"/><circle cx="284" cy="10" r="2.6"/>
+    <circle cx="450" cy="13" r="3.6"/><circle cx="464" cy="11" r="2.6"/><circle cx="630" cy="12" r="3.6"/><circle cx="644" cy="10" r="2.6"/>
+    <circle cx="810" cy="13" r="3.6"/><circle cx="824" cy="11" r="2.6"/>
+  </g>
+  <text id="bell-numeral" x="450" y="31" text-anchor="middle" font-size="10" fill="#e8a43e" font-family="serif">I</text>
+</svg>

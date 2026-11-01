@@ -1,18 +1,34 @@
-![banner](assets/banner.png)
+![Introduction: storm watch from the crow’s nest](intro-banner.png)
+
 
 # Banking-Program
 
 A small interactive banking program in Python. It works with a checking account and a savings account for a single run: you enter both starting balances, choose one operation and one account, enter an amount, and the program prints the resulting balance. Nothing is saved between runs.
 
+
+![Banking-Program](assets/banner.png)
+
+![Animated storm watch scene](assets-scene.svg)
+
+![Short horizon separator](sep-light.svg)
+
 ## Requirements
 
 Python 3. The program uses only the standard library (`math` and `sys`), so there is nothing to install.
+
+![Horizon separator](sep-heavy.svg)
+
+![Short horizon separator](sep-light.svg)
 
 ## How to run
 
 ```
 python3 banking.py
 ```
+
+![Horizon separator](sep-heavy.svg)
+
+![Short horizon separator](sep-light.svg)
 
 ## What it asks, in order
 
@@ -24,7 +40,15 @@ python3 banking.py
 
 The program first prints both balances back, with checking shown as checking and savings shown as savings.
 
+![Horizon separator](sep-heavy.svg)
+
+![Short horizon separator](sep-light.svg)
+
 ## What each operation does
+
+<!-- deco -->
+> **Watch order, chalked on the slate:** amounts larger than the source balance are refused with the words chalked in the section below, and every fault leaves by status 1.
+<!-- /deco -->
 
 - Withdraw (`w`): subtracts the amount from the selected account and prints its new balance. If the amount is more than the selected account holds, it prints "You do not have that amount of money" and exits. Only the selected account is checked.
 - Deposit (`d`): adds the amount to the selected account and prints its new balance. A deposit has no upper limit based on the current balances.
@@ -45,11 +69,19 @@ Checking balance 100, savings balance 1000, then t, s, 50
 prints a new savings balance of 950.00 and a new checking balance of 150.00
 ```
 
+![Horizon separator](sep-heavy.svg)
+
+![Short horizon separator](sep-light.svg)
+
 ## Files
 
 - `banking.py`: the program.
 - `Flowchart.pdf`: a flowchart for the program.
 - `assets/logo.png` and `assets/banner.png`: project branding.
+
+![Horizon separator](sep-heavy.svg)
+
+![Short horizon separator](sep-light.svg)
 
 ## License
 
