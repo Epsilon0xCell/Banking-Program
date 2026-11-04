@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 16" role="img" aria-label="Short horizon separator with three foam flecks">
-  <path id="short-horizon" d="M360 9 q45 -4 90 0 t90 0" fill="none" stroke="#7fc4c9" stroke-width="1.8"/>
-  <g id="three-flecks" fill="#f0f6f2"><circle cx="420" cy="5" r="2.2"/><circle cx="450" cy="4" r="2.6"/><circle cx="480" cy="5" r="2.2"/></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 10" role="img" aria-label="Minor separator"><line x1="10" y1="5" x2="790" y2="5" stroke="#c9a227" stroke-width="2"/><circle cx="400" cy="5" r="4" fill="#c9a227"/></svg>

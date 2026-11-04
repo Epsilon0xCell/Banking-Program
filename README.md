@@ -1,24 +1,37 @@
-![Introduction: storm watch from the crow’s nest](intro-banner.png)
+<p align="center"><img src="intro-banner.png" alt="Banking-Program introduction" width="800"></p>
 
+<p align="center"><img src="logo.png" alt="Banking-Program logo" width="200"></p>
 
 # Banking-Program
+
+**The Little Ledger**
+_A tiny clay bank in sage and brass, where coins roll from one vault to the other and the balance scale stays level at the center._
 
 A small interactive banking program in Python. It works with a checking account and a savings account for a single run: you enter both starting balances, choose one operation and one account, enter an amount, and the program prints the resulting balance. Nothing is saved between runs.
 
 
 ![Banking-Program](assets/banner.png)
 
-![Animated storm watch scene](assets-scene.svg)
+![The Little Ledger, animated clay bank scene](assets-scene.svg)
 
-![Short horizon separator](sep-light.svg)
+![Minor separator](sep-light.svg)
+
+## Contents
+
+- [Requirements](#requirements)
+- [How to run](#how-to-run)
+- [What it asks, in order](#what-it-asks-in-order)
+- [What each operation does](#what-each-operation-does)
+- [Files](#files)
+- [License](#license)
 
 ## Requirements
 
 Python 3. The program uses only the standard library (`math` and `sys`), so there is nothing to install.
 
-![Horizon separator](sep-heavy.svg)
+![Major separator](sep-heavy.svg)
 
-![Short horizon separator](sep-light.svg)
+![Minor separator](sep-light.svg)
 
 ## How to run
 
@@ -26,9 +39,9 @@ Python 3. The program uses only the standard library (`math` and `sys`), so ther
 python3 banking.py
 ```
 
-![Horizon separator](sep-heavy.svg)
+![Major separator](sep-heavy.svg)
 
-![Short horizon separator](sep-light.svg)
+![Minor separator](sep-light.svg)
 
 ## What it asks, in order
 
@@ -40,9 +53,9 @@ python3 banking.py
 
 The program first prints both balances back, with checking shown as checking and savings shown as savings.
 
-![Horizon separator](sep-heavy.svg)
+![Major separator](sep-heavy.svg)
 
-![Short horizon separator](sep-light.svg)
+![Minor separator](sep-light.svg)
 
 ## What each operation does
 
@@ -69,9 +82,9 @@ Checking balance 100, savings balance 1000, then t, s, 50
 prints a new savings balance of 950.00 and a new checking balance of 150.00
 ```
 
-![Horizon separator](sep-heavy.svg)
+![Major separator](sep-heavy.svg)
 
-![Short horizon separator](sep-light.svg)
+![Minor separator](sep-light.svg)
 
 ## Files
 
@@ -79,9 +92,9 @@ prints a new savings balance of 950.00 and a new checking balance of 150.00
 - `Flowchart.pdf`: a flowchart for the program.
 - `assets/logo.png` and `assets/banner.png`: project branding.
 
-![Horizon separator](sep-heavy.svg)
+![Major separator](sep-heavy.svg)
 
-![Short horizon separator](sep-light.svg)
+![Minor separator](sep-light.svg)
 
 ## License
 

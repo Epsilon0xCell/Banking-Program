@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 34" role="img" aria-label="Horizon with breaking foam separator">
-  <path id="horizon-line" d="M0 20 q60 -7 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#7fc4c9" stroke-width="2.6"/>
-  <g id="foam-crests" fill="#f0f6f2">
-    <circle cx="90" cy="13" r="3.6"/><circle cx="104" cy="11" r="2.6"/><circle cx="270" cy="12" r="3.6"/><circle cx="284" cy="10" r="2.6"/>
-    <circle cx="450" cy="13" r="3.6"/><circle cx="464" cy="11" r="2.6"/><circle cx="630" cy="12" r="3.6"/><circle cx="644" cy="10" r="2.6"/>
-    <circle cx="810" cy="13" r="3.6"/><circle cx="824" cy="11" r="2.6"/>
-  </g>
-  <text id="bell-numeral" x="450" y="31" text-anchor="middle" font-size="10" fill="#e8a43e" font-family="serif">I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 26" role="img" aria-label="Major separator"><rect width="800" height="26" fill="transparent"/><line x1="10" y1="13" x2="790" y2="13" stroke="#8fa98f" stroke-width="4"/><circle cx="60" cy="13" r="5" fill="#8fa98f"/><circle cx="110" cy="13" r="5" fill="#c9a227"/><circle cx="160" cy="13" r="5" fill="#6b4a2f"/><circle cx="210" cy="13" r="5" fill="#8fa98f"/><circle cx="260" cy="13" r="5" fill="#c9a227"/><circle cx="310" cy="13" r="5" fill="#6b4a2f"/><circle cx="360" cy="13" r="5" fill="#8fa98f"/><circle cx="410" cy="13" r="5" fill="#c9a227"/><circle cx="460" cy="13" r="5" fill="#6b4a2f"/><circle cx="510" cy="13" r="5" fill="#8fa98f"/><circle cx="560" cy="13" r="5" fill="#c9a227"/><circle cx="610" cy="13" r="5" fill="#6b4a2f"/><circle cx="660" cy="13" r="5" fill="#8fa98f"/><circle cx="710" cy="13" r="5" fill="#c9a227"/><circle cx="760" cy="13" r="5" fill="#6b4a2f"/><rect x="388" y="3" width="24" height="20" transform="rotate(45 400 13)" fill="#c9a227"/></svg>
